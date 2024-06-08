@@ -9,7 +9,7 @@ import streamlit as st
 import pandas as pd
 
 # Load the model from disk
-model_path = 'C:/Users/user/MachineLearning/PID_Model.joblib'
+model_path = 'PID_Model.joblib'
 loaded_model = joblib.load(model_path)
 
 #creating a function for prediction

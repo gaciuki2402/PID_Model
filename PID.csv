@@ -1,0 +1,520 @@
+Patient ID,Age,Race,STDs/UTI History,IUD Use,Past Pelvic Pain,Imaging Results,Abnormal Discharge,Fever Onset,Irregular Periods,Dyspareunia,Dysuria,WBC Count,ESR,CRP Level,PID Diagnosis
+P001,25,White,No,Yes,No,Normal (US),None,5/10/2025,No,Yes,No,Normal,Normal,Normal,Negative
+P002,30,Black,Yes (2 years ago),No,Yes,Adnexal tenderness (US),Yellow discharge,4/20/2025,Yes,Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P003,35,Asian,No,Yes,Yes,Pelvic adhesions (US),"Brown discharge, heavy bleeding",None,Irregular,Yes,Yes,High,High,High,Positive
+P004,28,Hispanic,No,No,No,Normal (US),"White, clumpy discharge, itching",None,Regular,No,No,Normal,Normal,Normal,Negative
+P005,33,Indigenous,Yes (current),Yes,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P006,22,White,Yes (6 months ago),No,Yes,Adnexal tenderness (US),Greenish discharge,5/15/2025,Irregular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P007,29,Hispanic,No,No,Yes,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P008,27,Black,No,Yes,Yes,Pelvic adhesions (US),Grey discharge,None,Regular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P009,31,Asian,Yes (3 years ago),No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P010,26,White,No,No,Yes,Pelvic adhesions (US),Yellow discharge,6/5/2025,Irregular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P011,24,Black,Yes (1 year ago),Yes,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P012,37,White,No,Yes,Yes,Pelvic adhesions (US),"Brown discharge, heavy bleeding",None,Irregular,Yes,Yes,High,High,High,Positive
+P013,29,Hispanic,No,No,No,Normal (US),"White, clumpy discharge, itching",None,Regular,No,No,Normal,Normal,Normal,Negative
+P014,31,Asian,Yes (5 years ago),No,Yes,Adnexal tenderness (US),Yellow discharge,5/20/2025,Irregular,Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P015,28,Indigenous,No,Yes,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P016,33,White,Yes (2 years ago),No,Yes,Pelvic adhesions (US),Grey discharge,None,Irregular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P017,26,Black,No,Yes,No,Normal (US),Yellow discharge,None,Regular,Yes,Yes,Elevated,Normal,Elevated,Positive
+P018,30,Asian,No,No,Yes,Adnexal tenderness (US),Greenish discharge,6/10/2025,Irregular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P019,35,Hispanic,Yes (3 years ago),No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P020,32,White,No,Yes,Yes,Pelvic adhesions (US),"Brown discharge, heavy bleeding",None,Irregular,Yes,Yes,High,High,High,Positive
+P021,27,Hispanic,No,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P022,29,White,Chlamydia,Yes (5 years ago),No,Adnexal tenderness (US),"Yellow discharge, burning sensation",6/5/2025,Irregular,Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P023,31,Asian,No,Yes,Yes,Pelvic adhesions (US),"Brown discharge, heavy bleeding",None,Irregular,Yes,Yes,High,High,High,Positive
+P024,25,Black,Bacterial Vaginosis (BV),No,No,Normal (US),"White, clumpy discharge, itching",None,Regular,Yes,Yes,Slightly Elevated,Normal,Normal,Negative
+P025,30,Indigenous,None,Yes (current),No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P026,28,White,Gonorrhea,No,Yes,Adnexal tenderness (US),Greenish discharge,None,Irregular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P027,34,Hispanic,No,No,Yes,Pelvic adhesions (US),Yellow discharge,None,Regular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P028,26,Black,No,Yes (current),No,Normal (US),None,None,Regular,Yes,Yes,Elevated,Normal,Elevated,Positive
+P029,33,White,No,Yes (current),Yes,Pelvic adhesions (US),"Brown discharge, heavy bleeding",None,Irregular,Yes,Yes,High,High,High,Positive
+P030,31,Hispanic,Bacterial Vaginosis (BV),No,No,Normal (US),Grey discharge,None,Regular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P001,22,Latina,No,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P002,38,White,Chlamydia,Yes (5 years ago),No,Adnexal tenderness (US),"Yellow discharge, burning sensation",3/18/2025,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P003,45,Middle Eastern,None,No,Yes (10 years ago),Pelvic adhesions (US),"Brown discharge, heavy bleeding",None,Postmenopausal (no periods),Yes,Yes,High,High,High,Positive
+P004,19,Black,Bacterial Vaginosis (BV),No,No,Normal (US),"White, clumpy discharge, itching",None,Irregular (varying lengths),Yes,Yes,Slightly Elevated,Normal,Normal,Negative
+P005,32,Indigenous,None,Yes (currently),No,Normal (US),None,None,Regular (30 days),No,No,Normal,Normal,Normal,Negative
+P006,28,Hispanic,No,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P007,33,White,No,No,Yes,Pelvic adhesions (US),Yellow discharge,None,Regular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P008,27,Black,No,Yes (current),No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P009,35,Asian,No,Yes (current),Yes,Pelvic adhesions (US),"Brown discharge, heavy bleeding",None,Irregular,Yes,Yes,High,High,High,Positive
+P010,23,White,Chlamydia,Yes (2 years ago),No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P011,29,Hispanic,No,No,Yes,Pelvic adhesions (US),Yellow discharge,None,Irregular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P012,31,Asian,No,Yes (current),No,Normal (US),White discharge,None,Regular,Yes,Yes,Elevated,Normal,Elevated,Positive
+P013,26,White,No,Yes (current),No,Normal (US),None,None,Regular,Yes,Yes,Elevated,Normal,Elevated,Positive
+P014,30,Indigenous,None,Yes (current),No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P015,28,Black,Gonorrhea,No,Yes,Adnexal tenderness (US),Greenish discharge,None,Irregular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P016,34,Hispanic,No,No,Yes,Pelvic adhesions (US),Yellow discharge,None,Regular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P017,26,White,No,Yes (current),No,Normal (US),None,None,Regular,Yes,Yes,Elevated,Normal,Elevated,Positive
+P018,33,Black,No,Yes (current),Yes,Pelvic adhesions (US),"Brown discharge, heavy bleeding",None,Irregular,Yes,Yes,High,High,High,Positive
+P019,31,Hispanic,Bacterial Vaginosis (BV),No,No,Normal (US),Grey discharge,None,Regular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P020,32,White,Chlamydia,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P021,27,Asian,No,Yes (current),No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P022,29,Hispanic,No,No,Yes,Pelvic adhesions (US),Yellow discharge,None,Irregular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P023,35,Black,No,Yes (current),Yes,Pelvic adhesions (US),"Brown discharge, heavy bleeding",None,Irregular,Yes,Yes,High,High,High,Positive
+P024,21,White,No,Yes (current),No,Normal (US),Yellow discharge,None,Regular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P025,38,Hispanic,Chlamydia,Yes (5 years ago),No,Adnexal tenderness (US),"Yellow discharge, burning sensation",3/18/2025,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P026,43,Asian,None,No,Yes (10 years ago),Pelvic adhesions (US),"Brown discharge, heavy bleeding",None,Postmenopausal (no periods),Yes,Yes,High,High,High,Positive
+P027,18,White,Bacterial Vaginosis (BV),No,No,Normal (US),"White, clumpy discharge, itching",None,Irregular (varying lengths),Yes,Yes,Slightly Elevated,Normal,Normal,Negative
+P028,31,Indigenous,None,Yes (currently),No,Normal (US),None,None,Regular (30 days),No,No,Normal,Normal,Normal,Negative
+P029,26,Hispanic,No,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P030,30,White,No,No,Yes,Pelvic adhesions (US),Yellow discharge,None,Regular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P031,25,Black,No,Yes (current),No,Normal (US),None,None,Regular,Yes,Yes,Elevated,Normal,Elevated,Positive
+P032,34,Asian,Bacterial Vaginosis (BV),No,Yes (current),Pelvic adhesions (US),Grey discharge,None,Regular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P033,28,White,No,Yes (current),No,Normal (US),White discharge,None,Regular,Yes,Yes,Elevated,Normal,Elevated,Positive
+P034,32,Indigenous,None,Yes (current),No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P035,29,Black,Gonorrhea,No,Yes,Adnexal tenderness (US),Greenish discharge,None,Regular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P036,33,Hispanic,No,Yes (current),No,Normal (US),None,None,Regular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P037,27,White,No,Yes (current),No,Normal (US),None,None,Regular,Yes,Yes,Elevated,Normal,Elevated,Positive
+P038,35,Asian,No,Yes (current),Yes,Pelvic adhesions (US),"Brown discharge, heavy bleeding",None,Irregular,Yes,Yes,High,High,High,Positive
+P039,31,Hispanic,Bacterial Vaginosis (BV),No,No,Normal (US),Grey discharge,None,Regular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P041,24,Hispanic,No,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P042,32,African,Chlamydia,Yes,No,Adnexal tenderness (US),"Green, frothy",10/18/2023,Irregular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P043,29,Asian,No,No,Yes,Pelvic adhesions (US),"Brown, foul",None,Irregular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P044,27,Caucasian,No,Yes,Yes,Normal (US),"White, fishy",None,Regular,Yes,No,Normal,Normal,Normal,Positive
+P045,35,Hispanic,Bacterial Vaginosis (BV),No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P046,33,African,No,No,Yes,Adnexal tenderness (US),"Yellow, odorous",10/25/2023,Irregular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P047,26,Asian,No,Yes,Yes,Pelvic adhesions (US),"Grey, watery",None,Regular,Yes,No,Normal,Normal,Normal,Negative
+P048,28,Caucasian,No,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P049,30,Hispanic,Gonorrhea,Yes,Yes,Pelvic adhesions (US),"Yellow, thick",None,Irregular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P050,31,African,No,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P051,29,Caucasian,No,Yes,Yes,Adnexal tenderness (US),"Greenish, foul-smelling",11/5/2023,Irregular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P052,27,Hispanic,No,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P053,35,Asian,Chlamydia,Yes,Yes,Pelvic adhesions (US),"Grey, frothy",None,Irregular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P054,33,African,No,No,Yes,Adnexal tenderness (US),"Yellow, odorous",11/12/2023,Irregular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P055,26,Caucasian,No,Yes,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P056,28,Hispanic,Gonorrhea,Yes,Yes,Pelvic adhesions (US),"Yellow, thick",None,Irregular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P057,31,African,No,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P058,30,Hispanic,Bacterial Vaginosis (BV),No,Yes,Pelvic adhesions (US),"Grey, watery",None,Regular,Yes,No,Normal,Normal,Normal,Negative
+P059,32,Caucasian,No,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P060,34,African,No,Yes,Yes,Pelvic adhesions (US),"Brown, thick",None,Irregular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P061,25,Hispanic,No,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P062,27,Caucasian,No,Yes,Yes,Adnexal tenderness (US),"Greenish, foul-smelling",11/5/2023,Irregular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P063,30,Hispanic,No,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P064,32,African,Chlamydia,Yes,Yes,Pelvic adhesions (US),"Grey, frothy",None,Irregular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P065,29,Caucasian,No,Yes,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P066,31,Hispanic,Gonorrhea,Yes,Yes,Pelvic adhesions (US),"Yellow, thick",None,Irregular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P067,33,African,No,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P068,28,Hispanic,Bacterial Vaginosis (BV),No,Yes,Pelvic adhesions (US),"Grey, watery",None,Regular,Yes,No,Normal,Normal,Normal,Negative
+P069,26,Caucasian,No,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P070,35,African,No,Yes,Yes,Pelvic adhesions (US),"Brown, thick",None,Irregular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P071,24,Hispanic,No,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P072,36,Caucasian,No,Yes,Yes,Pelvic adhesions (US),"Yellow, foul-smelling",None,Irregular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P073,29,Hispanic,No,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P074,31,African,Chlamydia,Yes,Yes,Adnexal tenderness (US),"Greenish, frothy",12/12/2023,Irregular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P075,27,Caucasian,No,Yes,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P076,32,Hispanic,Gonorrhea,Yes,Yes,Pelvic adhesions (US),"Brown, watery",None,Irregular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P077,34,African,No,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P078,28,Hispanic,Bacterial Vaginosis (BV),No,Yes,Pelvic adhesions (US),"Grey, thick",None,Regular,Yes,No,Normal,Normal,Normal,Negative
+P079,25,Caucasian,No,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P080,37,African,No,Yes,Yes,Pelvic adhesions (US),"Yellow, clumpy",None,Irregular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P081,30,Hispanic,No,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P082,33,Caucasian,No,Yes,Yes,Pelvic adhesions (US),"Yellow, frothy",None,Irregular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P083,26,Hispanic,No,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P084,28,African,Chlamydia,Yes,Yes,Adnexal tenderness (US),"Greenish, foul-smelling",11/25/2023,Irregular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P085,35,Caucasian,No,Yes,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P086,31,Hispanic,Gonorrhea,Yes,Yes,Pelvic adhesions (US),"Brown, watery",None,Irregular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P087,29,African,No,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P088,27,Caucasian,Bacterial Vaginosis (BV),No,Yes,Pelvic adhesions (US),"Grey, watery",None,Regular,Yes,No,Normal,Normal,Normal,Negative
+P089,32,Hispanic,No,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P090,36,African,No,Yes,Yes,Pelvic adhesions (US),"Yellow, clumpy",None,Irregular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P091,24,Caucasian,No,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P092,29,Hispanic,No,Yes,Yes,Pelvic adhesions (US),"Yellow, frothy",None,Irregular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P093,26,Caucasian,No,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P094,28,African,Chlamydia,Yes,Yes,Adnexal tenderness (US),"Greenish, foul-smelling",11/25/2023,Irregular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P095,35,Caucasian,No,Yes,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P096,31,Hispanic,Gonorrhea,Yes,Yes,Pelvic adhesions (US),"Brown, watery",None,Irregular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P097,29,African,No,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P098,27,Caucasian,Bacterial Vaginosis (BV),No,Yes,Pelvic adhesions (US),"Grey, watery",None,Regular,Yes,No,Normal,Normal,Normal,Negative
+P099,32,Hispanic,No,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P100,36,African,No,Yes,Yes,Pelvic adhesions (US),"Yellow, clumpy",None,Irregular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P111,29,Hispanic,No,No,Yes,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P112,33,White,No,No,Yes,Pelvic adhesions (US),Yellow discharge,None,Regular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P113,27,Black,No,Yes (current),No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P114,30,Asian,Bacterial Vaginosis (BV),No,Yes (current),Pelvic adhesions (US),Grey discharge,None,Regular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P115,26,Hispanic,No,No,No,Normal (US),White discharge,None,Regular,Yes,Yes,Elevated,Normal,Elevated,Positive
+P116,34,White,Chlamydia,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P117,21,Black,Gonorrhea,Yes (6 months ago),No,Adnexal tenderness (US),Greenish discharge,None,Regular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P118,37,Asian,No,Yes (current),No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P119,24,Hispanic,No,No,No,Normal (US),Yellow discharge,None,Regular,Yes,Yes,Elevated,Normal,Elevated,Positive
+P120,32,White,Bacterial Vaginosis (BV),Yes (1 year ago),Yes,Pelvic adhesions (US),Grey discharge,None,Regular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P121,28,Black,No,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P122,35,Hispanic,No,Yes (current),No,Normal (US),Yellow discharge,None,Regular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P123,29,White,Chlamydia,Yes (3 years ago),No,Adnexal tenderness (US),Greenish discharge,None,Regular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P124,31,Asian,No,No,Yes,Pelvic adhesions (US),"Brown discharge, heavy bleeding",None,Regular,Yes,Yes,High,High,High,Positive
+P125,27,Black,Bacterial Vaginosis (BV),No,No,Normal (US),"White, clumpy discharge, itching",None,Irregular (varying lengths),Yes,Yes,Slightly Elevated,Normal,Normal,Negative
+P126,33,Hispanic,No,Yes (current),Yes,Pelvic adhesions (US),Grey discharge,None,Regular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P127,25,White,Gonorrhea,Yes (1 year ago),No,Adnexal tenderness (US),"Yellowish discharge, abdominal pain",None,Regular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P128,30,Black,No,No,Yes,Pelvic adhesions (US),Yellow discharge,None,Regular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P129,26,Hispanic,No,Yes (2 years ago),No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P130,34,White,Bacterial Vaginosis (BV),No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P131,29,Asian,No,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P132,31,Hispanic,No,Yes (current),No,Normal (US),Yellow discharge,None,Regular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P133,27,Black,Chlamydia,Yes (4 years ago),No,Adnexal tenderness (US),Greenish discharge,None,Regular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P134,33,White,No,No,Yes,Pelvic adhesions (US),"Brown discharge, heavy bleeding",None,Regular,Yes,Yes,High,High,High,Positive
+P135,25,Asian,Bacterial Vaginosis (BV),No,No,Normal (US),"White, clumpy discharge, itching",None,Irregular (varying lengths),Yes,Yes,Slightly Elevated,Normal,Normal,Negative
+P136,30,Black,No,Yes (current),Yes,Pelvic adhesions (US),Grey discharge,None,Regular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P137,26,Hispanic,Gonorrhea,Yes (1 year ago),No,Adnexal tenderness (US),"Yellowish discharge, abdominal pain",None,Regular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P138,32,White,No,No,Yes,Pelvic adhesions (US),Yellow discharge,None,Regular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P139,28,Hispanic,No,Yes (2 years ago),No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P140,34,White,Bacterial Vaginosis (BV),No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P141,36,Black,No,Yes (current),No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P142,23,White,Chlamydia,Yes (3 years ago),No,Adnexal tenderness (US),Greenish discharge,None,Regular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P143,39,Hispanic,No,No,Yes,Pelvic adhesions (US),"Brown discharge, heavy bleeding",None,Regular,Yes,Yes,High,High,High,Positive
+P144,20,Asian,Bacterial Vaginosis (BV),No,No,Normal (US),"White, clumpy discharge, itching",None,Irregular (varying lengths),Yes,Yes,Slightly Elevated,Normal,Normal,Negative
+P145,37,Black,No,Yes (current),No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P146,24,Hispanic,Gonorrhea,Yes (6 months ago),No,Adnexal tenderness (US),"Yellowish discharge, abdominal pain",None,Regular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P147,31,White,No,No,Yes,Pelvic adhesions (US),Yellow discharge,None,Regular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P148,27,Hispanic,No,Yes (1 year ago),No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P149,35,White,Bacterial Vaginosis (BV),No,Yes,Pelvic adhesions (US),Grey discharge,None,Regular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P150,22,Asian,No,No,Yes,Pelvic adhesions (US),"Brown discharge, heavy bleeding",None,Regular,Yes,Yes,High,High,High,Positive
+P151,29,Black,No,Yes (current),No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P152,26,White,Chlamydia,Yes (4 years ago),No,Adnexal tenderness (US),"Yellow discharge, burning sensation",None,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P153,41,Hispanic,No,No,Yes,Pelvic adhesions (US),"Brown discharge, heavy bleeding",None,Irregular (varying lengths),Yes,Yes,High,High,High,Positive
+P154,18,Asian,Bacterial Vaginosis (BV),No,No,Normal (US),"White, clumpy discharge, itching",None,Regular,Yes,Yes,Slightly Elevated,Normal,Normal,Negative
+P155,33,Black,No,Yes (current),No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P156,30,Hispanic,Gonorrhea,Yes (3 years ago),No,Adnexal tenderness (US),Greenish discharge,None,Regular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P157,28,White,No,No,Yes,Pelvic adhesions (US),Yellow discharge,None,Regular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P158,34,Hispanic,No,Yes (current),No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P159,25,Asian,Bacterial Vaginosis (BV),No,Yes,Pelvic adhesions (US),Grey discharge,None,Regular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P160,31,Black,No,No,Yes,Pelvic adhesions (US),"Brown discharge, heavy bleeding",None,Irregular (varying lengths),Yes,Yes,High,High,High,Positive
+P161,27,White,Chlamydia,No,Yes (5 years ago),Adnexal tenderness (US),"Yellow discharge, burning sensation",7/18/2025,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P162,22,Hispanic,No,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P163,35,Black,No,Yes (current),No,Normal (US),"White, clumpy discharge, itching",None,Irregular (varying lengths),Yes,Yes,Slightly Elevated,Normal,Normal,Negative
+P164,19,Asian,Gonorrhea,Yes (2 years ago),No,Adnexal tenderness (US),"Greenish discharge, itching",8/2/2025,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Elevated,Positive
+P165,29,White,No,Yes (current),No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P166,24,Hispanic,Bacterial Vaginosis (BV),No,Yes,Pelvic adhesions (US),Grey discharge,None,Regular,Yes,Yes,Elevated,Elevated,Elevated,Positive
+P167,31,Black,No,Yes (current),No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P168,26,White,Chlamydia,No,Yes (3 years ago),Adnexal tenderness (US),"Yellow discharge, burning sensation",8/15/2025,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P169,33,Hispanic,No,No,Yes,Pelvic adhesions (US),"Brown discharge, heavy bleeding",None,Irregular (varying lengths),Yes,Yes,High,High,High,Positive
+P170,28,Black,Bacterial Vaginosis (BV),No,No,Normal (US),"White, clumpy discharge, itching",None,Regular,Yes,Yes,Slightly Elevated,Normal,Normal,Negative
+P171,30,Asian,Gonorrhea,No,Yes (4 years ago),Adnexal tenderness (US),"Greenish discharge, burning sensation",8/25/2025,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P172,23,Hispanic,No,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P173,37,White,No,Yes (current),No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P174,25,Black,Chlamydia,Yes (3 years ago),No,Pelvic adhesions (US),"Brown discharge, itching",9/5/2025,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P175,32,White,No,Yes (current),No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P176,27,Hispanic,Bacterial Vaginosis (BV),No,Yes,Pelvic adhesions (US),"Grey discharge, itching",None,Irregular (varying lengths),Yes,Yes,Elevated,Elevated,Elevated,Positive
+P177,34,Black,No,Yes (current),No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P178,29,White,Chlamydia,No,Yes (2 years ago),Adnexal tenderness (US),"Yellow discharge, burning sensation",9/15/2025,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P179,35,Hispanic,No,No,Yes,Pelvic adhesions (US),"Brown discharge, heavy bleeding",None,Irregular (varying lengths),Yes,Yes,High,High,High,Positive
+P180,26,Black,Bacterial Vaginosis (BV),No,No,Normal (US),"White, clumpy discharge, itching",None,Regular,Yes,Yes,Slightly Elevated,Normal,Normal,Negative
+P181,31,Asian,No,Yes (current),No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P182,28,White,Chlamydia,Yes (1 year ago),Yes,Pelvic adhesions (US),"Greyish discharge, itching",None,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P183,33,Black,No,No,No,Normal (US),"Yellowish discharge, None",None,Regular,No,No,Normal,Normal,Normal,Negative
+P184,40,Hispanic,No,Yes (current),Yes,Pelvic adhesions (US),"Yellow discharge, itching",10/5/2025,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P185,22,White,No,No,Yes (3 years ago),Adnexal tenderness (US),"Greenish discharge, burning sensation",10/10/2025,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P186,29,Hispanic,Gonorrhea,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P187,36,Black,No,Yes (current),Yes,Pelvic adhesions (US),"Brown discharge, heavy bleeding",None,Irregular (varying lengths),Yes,Yes,High,High,High,Positive
+P188,24,White,Bacterial Vaginosis (BV),No,No,Normal (US),"White, clumpy discharge, None",None,Regular,Yes,Yes,Slightly Elevated,Normal,Normal,Negative
+P189,32,Hispanic,No,Yes (2 years ago),No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P190,27,Black,Chlamydia,Yes (4 years ago),No,Pelvic adhesions (US),"Yellowish discharge, itching",10/25/2025,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P191,30,Asian,No,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P192,35,White,Gonorrhea,Yes (2 years ago),Yes,Adnexal tenderness (US),"Yellowish discharge, burning sensation",11/5/2025,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P193,25,Black,No,Yes (current),No,Pelvic adhesions (US),"Greyish discharge, None",None,Regular,No,No,Normal,Normal,Normal,Negative
+P194,38,Hispanic,Bacterial Vaginosis (BV),No,Yes,Pelvic adhesions (US),"Yellow discharge, itching",11/15/2025,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P195,23,White,No,No,Yes (1 year ago),Normal (US),"White, clumpy discharge, None",None,Regular,Yes,Yes,Slightly Elevated,Normal,Normal,Negative
+P196,29,Hispanic,No,Yes (current),No,Pelvic adhesions (US),"Brown discharge, heavy bleeding",None,Irregular (varying lengths),Yes,Yes,High,High,High,Positive
+P197,26,Black,Chlamydia,Yes (3 years ago),No,Pelvic adhesions (US),"Yellowish discharge, itching",11/25/2025,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P198,33,White,No,Yes (current),Yes,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P199,28,Hispanic,No,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P200,31,Black,Gonorrhea,Yes (4 years ago),Yes,Adnexal tenderness (US),"Greenish discharge, burning sensation",12/5/2025,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P201,34,Asian,No,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P202,27,White,Chlamydia,Yes (2 years ago),No,Adnexal tenderness (US),"Yellow discharge, burning sensation",12/10/2025,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P203,40,Black,No,Yes (current),Yes,Pelvic adhesions (US),"Greyish discharge, None",None,Regular,No,No,Normal,Normal,Normal,Negative
+P204,29,Hispanic,Bacterial Vaginosis (BV),No,Yes,Pelvic adhesions (US),"Yellow discharge, itching",12/15/2025,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P205,25,White,No,No,Yes (1 year ago),Normal (US),"White, clumpy discharge, None",None,Regular,Yes,Yes,Slightly Elevated,Normal,Normal,Negative
+P206,30,Hispanic,No,Yes (current),No,Pelvic adhesions (US),"Brown discharge, heavy bleeding",None,Irregular (varying lengths),Yes,Yes,High,High,High,Positive
+P207,32,Black,Chlamydia,Yes (3 years ago),No,Pelvic adhesions (US),"Yellowish discharge, itching",12/25/2025,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P208,35,White,No,Yes (current),Yes,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P209,28,Hispanic,No,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P210,31,Black,Gonorrhea,Yes (4 years ago),Yes,Adnexal tenderness (US),"Greenish discharge, burning sensation",1/5/2026,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P211,26,Asian,No,Yes (current),Yes,Pelvic adhesions (US),"Yellow discharge, itching",1/10/2026,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P212,33,White,No,No,Yes (2 years ago),Normal (US),"White, clumpy discharge, None",None,Regular,Yes,Yes,Slightly Elevated,Normal,Normal,Negative
+P213,29,Hispanic,Bacterial Vaginosis (BV),No,Yes (current),Pelvic adhesions (US),"Greyish discharge, None",None,Regular,No,No,Normal,Normal,Normal,Negative
+P214,36,Black,No,Yes (current),No,Pelvic adhesions (US),"Brown discharge, heavy bleeding",None,Irregular (varying lengths),Yes,Yes,High,High,High,Positive
+P215,24,Hispanic,No,No,Yes (1 year ago),Normal (US),"Yellowish discharge, itching",None,Regular,Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P216,31,White,Chlamydia,Yes (3 years ago),No,Pelvic adhesions (US),"Greenish discharge, burning sensation",1/20/2026,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P217,28,Hispanic,No,Yes (current),Yes,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P218,30,Black,Gonorrhea,Yes (4 years ago),Yes,Adnexal tenderness (US),"Greenish discharge, burning sensation",1/25/2026,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P219,27,White,No,Yes (current),No,Pelvic adhesions (US),"Brown discharge, heavy bleeding",None,Irregular (varying lengths),Yes,Yes,High,High,High,Positive
+P220,32,Hispanic,No,No,Yes (2 years ago),Normal (US),"Yellow discharge, itching",None,Regular,Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P221,25,Asian,No,Yes (current),Yes,Pelvic adhesions (US),"Greyish discharge, None",None,Regular,No,No,Normal,Normal,Normal,Negative
+P222,34,White,No,No,Yes (1 year ago),Pelvic adhesions (US),"Yellowish discharge, itching",None,Regular,Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P223,30,Black,Chlamydia,Yes (2 years ago),No,Pelvic adhesions (US),"Greenish discharge, burning sensation",2/5/2026,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P224,28,Hispanic,Bacterial Vaginosis (BV),No,Yes (current),Pelvic adhesions (US),"Greyish discharge, None",None,Regular,No,No,Normal,Normal,Normal,Negative
+P225,31,White,No,Yes (current),No,Pelvic adhesions (US),"Brown discharge, heavy bleeding",None,Irregular (varying lengths),Yes,Yes,High,High,High,Positive
+P226,29,Hispanic,Gonorrhea,Yes (3 years ago),Yes,Adnexal tenderness (US),"Greenish discharge, burning sensation",2/15/2026,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P227,26,Black,No,Yes (current),Yes,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P228,33,White,Chlamydia,Yes (2 years ago),No,Pelvic adhesions (US),"Greenish discharge, burning sensation",2/20/2026,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P229,27,Hispanic,No,Yes (current),No,Pelvic adhesions (US),"Brown discharge, heavy bleeding",None,Irregular (varying lengths),Yes,Yes,High,High,High,Positive
+P230,32,White,No,No,Yes (2 years ago),Normal (US),"Yellow discharge, itching",None,Regular,Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P231,35,Asian,No,Yes (current),Yes,Pelvic adhesions (US),"Brownish discharge, None",None,Regular,No,No,Normal,Normal,Normal,Negative
+P232,28,Black,No,No,Yes (1 year ago),Pelvic adhesions (US),"Yellow discharge, itching",None,Irregular (varying lengths),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P233,30,Hispanic,Chlamydia,Yes (2 years ago),No,Pelvic adhesions (US),"Greenish discharge, burning sensation",3/5/2026,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P234,26,White,Bacterial Vaginosis (BV),No,Yes (current),Pelvic adhesions (US),"Greyish discharge, None",None,Regular,No,No,Normal,Normal,Normal,Negative
+P235,31,Black,No,Yes (current),No,Pelvic adhesions (US),"Brown discharge, heavy bleeding",None,Irregular (varying lengths),Yes,Yes,High,High,High,Positive
+P236,29,Hispanic,Gonorrhea,Yes (3 years ago),Yes,Adnexal tenderness (US),"Greenish discharge, burning sensation",3/15/2026,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P237,27,Black,No,Yes (current),Yes,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P238,33,White,Chlamydia,Yes (2 years ago),No,Pelvic adhesions (US),"Greenish discharge, burning sensation",3/20/2026,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P239,29,Hispanic,No,Yes (current),No,Pelvic adhesions (US),"Brown discharge, heavy bleeding",None,Irregular (varying lengths),Yes,Yes,High,High,High,Positive
+P240,34,White,No,No,Yes (2 years ago),Normal (US),"Yellow discharge, itching",None,Regular,Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P241,22,Latina,No,No,Yes (1 year ago),Normal (US),"White, clumpy discharge, itching",None,Irregular (varying lengths),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P242,27,Asian,No,Yes (current),Yes,Pelvic adhesions (US),"Greyish discharge, None",None,Regular,No,No,Normal,Normal,Normal,Negative
+P243,31,White,Gonorrhea,No,Yes (2 years ago),Pelvic adhesions (US),"Greenish discharge, burning sensation",4/5/2026,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P244,25,Black,No,Yes (current),Yes,Normal (US),"Yellow discharge, itching",None,Regular,Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P245,29,Hispanic,Bacterial Vaginosis (BV),Yes (1 year ago),No,Pelvic adhesions (US),"Greenish discharge, None",None,Regular,No,No,Normal,Normal,Normal,Negative
+P246,33,White,Chlamydia,Yes (3 years ago),No,Adnexal tenderness (US),"Greenish discharge, burning sensation",4/15/2026,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P247,27,Black,No,Yes (current),Yes,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P248,30,Hispanic,No,No,Yes (1 year ago),Pelvic adhesions (US),"Brown discharge, heavy bleeding",None,Irregular (varying lengths),Yes,Yes,High,High,High,Positive
+P249,28,White,Chlamydia,Yes (2 years ago),No,Pelvic adhesions (US),"Greenish discharge, burning sensation",4/20/2026,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P250,32,Hispanic,No,Yes (current),No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P251,26,Black,No,Yes (current),Yes,Pelvic adhesions (US),"Grey discharge, None",None,Regular,No,No,Normal,Normal,Normal,Negative
+P252,29,White,Chlamydia,No,Yes (2 years ago),Adnexal tenderness (US),"Greenish discharge, burning sensation",5/5/2026,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P253,31,Hispanic,No,Yes (current),Yes,Normal (US),"Yellowish discharge, itching",None,Regular,Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P254,27,Asian,Bacterial Vaginosis (BV),No,Yes (1 year ago),Pelvic adhesions (US),"Greyish discharge, None",None,Irregular (varying lengths),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P255,33,White,No,No,Yes (3 years ago),Adnexal tenderness (US),"Yellowish discharge, itching",None,Regular,Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P256,28,Hispanic,No,Yes (current),Yes,Pelvic adhesions (US),"Greenish discharge, burning sensation",5/15/2026,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P257,30,White,Chlamydia,Yes (2 years ago),No,Adnexal tenderness (US),"Greenish discharge, burning sensation",5/20/2026,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P258,26,Black,No,Yes (current),Yes,Normal (US),"Yellow discharge, itching",None,Regular,Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P259,29,Hispanic,Bacterial Vaginosis (BV),No,Yes (1 year ago),Pelvic adhesions (US),"Greyish discharge, None",None,Irregular (varying lengths),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P260,31,White,No,Yes (current),No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P261,27,Asian,No,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P262,32,Hispanic,No,Yes (current),No,Normal (US),"Yellowish discharge, None",None,Regular,No,No,Normal,Normal,Normal,Negative
+P263,34,Black,Chlamydia,Yes (3 years ago),No,Adnexal tenderness (US),"Yellow discharge, itching",None,Regular,Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P264,28,White,No,Yes (current),Yes,Pelvic adhesions (US),"Greenish discharge, burning sensation",6/5/2026,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P265,30,Hispanic,No,No,Yes (2 years ago),Adnexal tenderness (US),"Greenish discharge, burning sensation",6/10/2026,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P266,25,Asian,Bacterial Vaginosis (BV),No,No (removed 1 year ago),Normal (US),"Greyish discharge, None",None,Regular,No,No,Normal,Normal,Normal,Negative
+P267,29,Black,No,Yes (current),Yes,Pelvic adhesions (US),"Greenish discharge, burning sensation",6/20/2026,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P268,33,White,Chlamydia,Yes (1 year ago),No,Adnexal tenderness (US),"Yellow discharge, itching",None,Regular,Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P269,27,Hispanic,No,Yes (current),No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P270,31,Black,Gonorrhea,No,Yes (3 years ago),Adnexal tenderness (US),"Greenish discharge, burning sensation",6/30/2026,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P271,35,Asian,Bacterial Vaginosis (BV),No,No,Normal (US),"White, clumpy discharge, itching",None,Regular,No,No,Normal,Normal,Normal,Negative
+P272,29,Hispanic,No,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P273,32,White,Gonorrhea,Yes (4 years ago),Yes,Adnexal tenderness (US),"Greenish discharge, burning sensation",7/10/2026,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P274,26,Black,No,Yes (current),Yes,Pelvic adhesions (US),"Greenish discharge, burning sensation",7/15/2026,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P275,30,White,Chlamydia,Yes (2 years ago),No,Adnexal tenderness (US),"Yellow discharge, itching",None,Regular,Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P276,28,Asian,No,Yes (current),Yes,Pelvic adhesions (US),"Yellow discharge, itching",7/25/2026,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P277,31,Black,No,No,Yes (1 year ago),Normal (US),"White, clumpy discharge, itching",None,Regular,Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P278,27,Hispanic,No,Yes (current),No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P279,33,White,Bacterial Vaginosis (BV),Yes (3 years ago),Yes,Pelvic adhesions (US),"Greyish discharge, burning sensation",8/5/2026,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P280,25,Black,No,Yes (current),No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P281,36,Hispanic,Chlamydia,No,Yes (2 years ago),Pelvic adhesions (US),"Greenish discharge, itching",8/10/2026,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P282,23,White,No,Yes (current),Yes,Adnexal tenderness (US),"Yellow discharge, burning sensation",8/15/2026,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P283,29,Black,No,No,No,Normal (US),"White, clumpy discharge, itching",None,Regular,No,No,Normal,Normal,Normal,Negative
+P284,32,Asian,Bacterial Vaginosis (BV),Yes (1 year ago),No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P285,27,Hispanic,No,No,Yes (3 years ago),Pelvic adhesions (US),"Greenish discharge, burning sensation",8/25/2026,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P286,31,White,Gonorrhea,Yes (6 months ago),Yes,Adnexal tenderness (US),"Yellow discharge, itching",None,Regular,Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P287,25,Black,No,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P288,38,Asian,Chlamydia,No,Yes (5 years ago),Adnexal tenderness (US),"Greenish discharge, burning sensation",9/5/2026,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P289,29,Hispanic,No,Yes (current),No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P290,34,White,Bacterial Vaginosis (BV),Yes (2 years ago),Yes,Pelvic adhesions (US),"Greyish discharge, itching",9/15/2026,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P291,26,Hispanic,No,No,Yes (1 year ago),Pelvic adhesions (US),"Yellow discharge, burning sensation",9/20/2026,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P292,30,White,Gonorrhea,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P293,33,Black,No,Yes (current),No,Normal (US),"White, clumpy discharge, itching",None,Regular,No,No,Normal,Normal,Normal,Negative
+P294,28,Asian,Chlamydia,Yes (3 years ago),Yes,Adnexal tenderness (US),"Greenish discharge, itching",10/5/2026,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P295,24,Hispanic,No,No,Yes (2 years ago),Pelvic adhesions (US),"Greenish discharge, burning sensation",10/10/2026,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P296,37,White,Bacterial Vaginosis (BV),No,Yes (5 years ago),Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P297,21,Black,No,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P298,35,Asian,No,Yes (current),Yes,Pelvic adhesions (US),"Brown discharge, itching",10/20/2026,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P299,39,Hispanic,No,No,Yes (3 years ago),Pelvic adhesions (US),"Yellow discharge, burning sensation",10/25/2026,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P300,32,White,Chlamydia,Yes (1 year ago),Yes,Adnexal tenderness (US),"Greenish discharge, itching",11/1/2026,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P301,27,Black,Gonorrhea,No,Yes (2 years ago),Pelvic adhesions (US),"Brown discharge, heavy bleeding",11/10/2026,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P302,31,Hispanic,No,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P303,34,White,No,Yes (current),No,Normal (US),"Yellow discharge, itching",None,Regular,No,No,Normal,Normal,Normal,Negative
+P304,29,Asian,Chlamydia,Yes (4 years ago),Yes,Adnexal tenderness (US),"Greenish discharge, itching",11/25/2026,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P305,25,Hispanic,No,No,Yes (1 year ago),Pelvic adhesions (US),"Greenish discharge, burning sensation",12/1/2026,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P306,38,White,Bacterial Vaginosis (BV),No,Yes (6 years ago),Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P307,22,Black,No,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P308,36,Asian,No,Yes (current),Yes,Pelvic adhesions (US),"Brown discharge, itching",12/20/2026,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P309,40,Hispanic,No,No,Yes (4 years ago),Pelvic adhesions (US),"Yellow discharge, burning sensation",12/25/2026,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P310,33,White,Chlamydia,Yes (2 years ago),Yes,Adnexal tenderness (US),"Greenish discharge, itching",1/1/2027,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P311,28,Black,No,Yes (removed 2 years ago),No,Normal (US),"Yellow discharge, itching",None,Regular,No,No,Normal,Normal,Normal,Negative
+P312,31,White,Gonorrhea,No,Yes,Adnexal tenderness (US),"Greenish discharge, burning sensation",1/10/2027,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P313,25,Black,No,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P314,35,Asian,No,Yes (current),Yes,Pelvic adhesions (US),"Brown discharge, itching",1/20/2027,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P315,23,Hispanic,No,No,Yes (1 year ago),Pelvic adhesions (US),"Greenish discharge, burning sensation",1/25/2027,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P316,29,Asian,Chlamydia,Yes (4 years ago),Yes,Adnexal tenderness (US),"Greenish discharge, itching",2/1/2027,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P317,27,Hispanic,No,No,Yes (2 years ago),Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P318,33,White,No,No,Yes (6 years ago),Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P319,26,Hispanic,No,No,No,Normal (US),None,None,Regular,No,No,Normal,Normal,Normal,Negative
+P320,34,Asian,Bacterial Vaginosis (BV),No,Yes (current),Pelvic adhesions (US),"Brown discharge, itching",2/20/2027,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P331,30,Black,No,No,Yes (2 years ago),Normal (US),None,None,Regular (28 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P332,25,White,Chlamydia,Yes (1 year ago),No,Adnexal tenderness (US),"Yellow-green discharge, burning sensation",3/3/2027,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P333,35,Hispanic,No,Yes (current),Yes,Pelvic adhesions (US),"Brown discharge, heavy bleeding",None,Irregular (35-40 days),Yes,Yes,High,High,High,Positive
+P334,20,Asian,Bacterial Vaginosis (BV),No,No,Normal (US),"White, fishy-smelling discharge, itching",None,Regular (28 days),Yes,Yes,Slightly Elevated,Normal,Elevated,Positive
+P335,28,Black,Gonorrhea,No,No,Normal (US),None,None,Regular (30 days),No,No,Normal,Normal,Normal,Negative
+P336,32,White,No,No,Yes (3 years ago),Pelvic adhesions (US),"Yellow discharge, itching",None,Regular (28 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P337,22,Hispanic,No,Yes (removed 1 year ago),No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P338,36,Black,No,No,Yes (5 years ago),Pelvic adhesions (US),"Brown discharge, heavy bleeding",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P339,27,Asian,No,Yes (current),No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P340,26,White,Chlamydia,No,Yes (4 years ago),Adnexal tenderness (US),"Yellow-green discharge, burning sensation",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P341,29,Hispanic,No,Yes (removed 2 years ago),No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P342,33,White,Gonorrhea,Yes (current),Yes,Pelvic adhesions (US),"Yellow-green discharge, itching",None,Regular (28 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P343,31,Black,No,No,Yes (3 years ago),Normal (US),"White, clumpy discharge, itching",None,Regular (30 days),No,No,Normal,Normal,Normal,Negative
+P344,24,Asian,Bacterial Vaginosis (BV),No,No,Normal (US),"Greyish discharge, fishy odor",None,Regular (28 days),Yes,Yes,Slightly Elevated,Normal,Elevated,Positive
+P345,37,White,Gonorrhea,No,Yes (2 years ago),Adnexal tenderness (US),"Yellow-green discharge, burning sensation",None,Regular (28 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P346,30,Black,No,No,No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P347,28,Hispanic,Chlamydia,Yes (1 year ago),No,Pelvic adhesions (US),"Yellow discharge, itching",None,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P348,26,White,No,Yes (current),Yes,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P349,35,Hispanic,No,No,Yes (4 years ago),Pelvic adhesions (US),"Brown discharge, heavy bleeding",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P350,23,Black,No,Yes (removed 1 year ago),No,Normal (US),"White, clumpy discharge, itching",None,Regular (28 days),Yes,Yes,Slightly Elevated,Normal,Elevated,Positive
+P351,27,Asian,No,No,No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P352,31,White,Chlamydia,No,Yes (2 years ago),Adnexal tenderness (US),"Greenish discharge, itching",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P353,29,Black,No,Yes (current),No,Normal (US),"Yellowish discharge, mild odor",None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P354,34,Hispanic,No,No,Yes (1 year ago),Pelvic adhesions (US),"Greyish discharge, itching",None,Irregular (35-40 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P355,25,White,Gonorrhea,Yes (3 years ago),Yes,Pelvic adhesions (US),"Yellow-green discharge, burning sensation",None,Regular (28 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P356,28,Asian,No,Yes (removed 2 years ago),Yes,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P357,33,Black,Bacterial Vaginosis (BV),Yes (current),Yes,Normal (US),"Greyish discharge, fishy odor",None,Regular (28 days),Yes,Yes,Slightly Elevated,Normal,Elevated,Positive
+P358,30,Hispanic,No,No,No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P359,26,White,No,Yes (current),No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P360,32,Asian,Gonorrhea,No,Yes (5 years ago),Adnexal tenderness (US),"Greenish discharge, itching",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P361,29,Black,Chlamydia,No,No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P362,33,Hispanic,No,Yes (removed 1 year ago),No,Pelvic adhesions (US),"Brownish discharge, heavy bleeding",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P363,27,White,No,No,Yes (3 years ago),Pelvic adhesions (US),"Yellowish discharge, itching",None,Regular (28 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P364,31,Asian,Bacterial Vaginosis (BV),Yes (2 years ago),Yes,Normal (US),"Greyish discharge, fishy odor",None,Regular (28 days),Yes,Yes,Slightly Elevated,Normal,Elevated,Positive
+P365,26,Hispanic,No,Yes (current),No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P366,28,Black,Gonorrhea,No,Yes (1 year ago),Adnexal tenderness (US),"Greenish discharge, burning sensation",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P367,30,White,No,No,No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P368,34,Asian,No,Yes (current),No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P369,25,Hispanic,No,No,Yes (2 years ago),Adnexal tenderness (US),"Yellowish discharge, itching",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P370,32,Black,Chlamydia,Yes (4 years ago),Yes,Pelvic adhesions (US),"Greyish discharge, itching",None,Regular (28 days),Yes,Yes,Slightly Elevated,Normal,Elevated,Positive
+P371,27,White,No,No,No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P372,33,Hispanic,No,Yes (removed 3 years ago),Yes,Pelvic adhesions (US),"Yellowish-green discharge, itching",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P373,29,Black,Bacterial Vaginosis (BV),No,Yes (2 years ago),Pelvic adhesions (US),"Greyish discharge, fishy odor",None,Irregular (30-35 days),Yes,Yes,Slightly Elevated,Normal,Elevated,Positive
+P374,31,Asian,No,No,Yes (4 years ago),Pelvic adhesions (US),"Yellowish discharge, itching",None,Regular (28 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P375,26,Hispanic,No,Yes (current),No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P376,28,Black,Gonorrhea,No,Yes (2 years ago),Adnexal tenderness (US),"Greenish discharge, burning sensation",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P377,30,White,No,No,No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P378,34,Asian,No,Yes (current),No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P379,25,Hispanic,No,No,Yes (3 years ago),Adnexal tenderness (US),"Yellowish discharge, itching",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P380,32,Black,Chlamydia,Yes (5 years ago),Yes,Pelvic adhesions (US),"Greyish discharge, itching",None,Regular (28 days),Yes,Yes,Slightly Elevated,Normal,Elevated,Positive
+P401,29,Hispanic,No,Yes (removed 3 years ago),Yes,Pelvic adhesions (US),"Yellowish-green discharge, itching",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P402,33,Black,Bacterial Vaginosis (BV),No,Yes (2 years ago),Pelvic adhesions (US),"Greyish discharge, fishy odor",None,Irregular (30-35 days),Yes,Yes,Slightly Elevated,Normal,Elevated,Positive
+P403,31,Asian,No,No,Yes (4 years ago),Pelvic adhesions (US),"Yellowish discharge, itching",None,Regular (28 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P404,26,Hispanic,No,Yes (current),No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P405,28,Black,Gonorrhea,No,Yes (2 years ago),Adnexal tenderness (US),"Greenish discharge, burning sensation",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P406,30,White,No,No,No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P407,34,Asian,No,Yes (current),No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P408,25,Hispanic,No,No,Yes (3 years ago),Adnexal tenderness (US),"Yellowish discharge, itching",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P409,32,Black,Chlamydia,Yes (5 years ago),Yes,Pelvic adhesions (US),"Greyish discharge, itching",None,Regular (28 days),Yes,Yes,Slightly Elevated,Normal,Elevated,Positive
+P410,27,White,No,No,No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P411,29,Hispanic,No,No,No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P412,33,Black,Gonorrhea,Yes (1 year ago),No,Normal (US),"Greenish-yellow discharge, burning sensation",None,Regular (28 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P413,31,White,No,No,No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P414,26,Hispanic,Chlamydia,No,Yes (6 months ago),Pelvic adhesions (US),"Yellowish discharge, itching",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P415,28,Asian,No,No,Yes (1 year ago),Pelvic adhesions (US),"Brownish discharge, heavy bleeding",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P416,30,Hispanic,No,Yes (removed 4 years ago),Yes,Pelvic adhesions (US),"Greyish discharge, fishy odor",None,Irregular (30-35 days),Yes,Yes,Slightly Elevated,Normal,Elevated,Positive
+P417,34,Black,Bacterial Vaginosis (BV),Yes (2 years ago),No,Pelvic adhesions (US),"Greyish-white discharge, fishy odor",None,Irregular (30-35 days),Yes,Yes,Slightly Elevated,Normal,Elevated,Positive
+P418,25,White,No,No,No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P419,32,Hispanic,No,No,No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P420,27,Black,Gonorrhea,Yes (3 years ago),No,Adnexal tenderness (US),"Greenish discharge, burning sensation",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P421,29,Hispanic,No,No,No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P422,33,Black,Gonorrhea,Yes (1 year ago),No,Normal (US),"Greenish-yellow discharge, burning sensation",None,Regular (28 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P423,31,White,No,No,No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P424,26,Hispanic,Chlamydia,No,Yes (6 months ago),Pelvic adhesions (US),"Yellowish discharge, itching",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P425,28,Asian,No,No,Yes (1 year ago),Pelvic adhesions (US),"Brownish discharge, heavy bleeding",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P426,30,Hispanic,No,Yes (removed 4 years ago),Yes,Pelvic adhesions (US),"Greyish discharge, fishy odor",None,Irregular (30-35 days),Yes,Yes,Slightly Elevated,Normal,Elevated,Positive
+P427,34,Black,Bacterial Vaginosis (BV),Yes (2 years ago),No,Pelvic adhesions (US),"Greyish-white discharge, fishy odor",None,Irregular (30-35 days),Yes,Yes,Slightly Elevated,Normal,Elevated,Positive
+P428,25,White,No,No,No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P429,32,Hispanic,No,No,No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P430,27,Black,Gonorrhea,Yes (3 years ago),No,Adnexal tenderness (US),"Greenish discharge, burning sensation",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P431,28,White,Chlamydia,Yes (1 year ago),No,Pelvic adhesions (US),"Yellowish discharge, itching",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P432,30,Hispanic,No,No,Yes (2 years ago),Normal (US),"Yellowish discharge, itching",None,Regular (28 days),Yes,No,Normal,Normal,Normal,Negative
+P433,29,Black,Bacterial Vaginosis (BV),No,No,Normal (US),"Greyish discharge, fishy odor",None,Regular (28 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P434,27,White,No,Yes (current),No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P435,33,Hispanic,No,Yes (removed 3 years ago),No,Pelvic adhesions (US),"Greyish-white discharge, fishy odor",None,Irregular (30-35 days),Yes,Yes,Slightly Elevated,Normal,Elevated,Positive
+P436,31,Asian,Gonorrhea,Yes (1 year ago),No,Pelvic adhesions (US),"Greenish discharge, burning sensation",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P437,29,White,No,No,No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P438,28,Hispanic,No,Yes (removed 4 years ago),Yes,Adnexal tenderness (US),"Yellowish discharge, itching",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P439,26,Black,Bacterial Vaginosis (BV),Yes (2 years ago),No,Pelvic adhesions (US),"Greyish discharge, fishy odor",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P440,30,Hispanic,No,Yes (removed 5 years ago),No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P441,32,White,Chlamydia,No,Yes (3 years ago),Adnexal tenderness (US),"Yellowish-green discharge, itching",None,Regular (28 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P442,34,Hispanic,No,No,Yes (2 years ago),Pelvic adhesions (US),"Brown discharge, heavy bleeding",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P443,27,Black,Bacterial Vaginosis (BV),Yes (1 year ago),No,Normal (US),"White, clumpy discharge, itching",None,Regular (28 days),Yes,No,Normal,Normal,Normal,Negative
+P444,29,White,No,No,Yes (4 years ago),Pelvic adhesions (US),"Greyish discharge, fishy odor",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P445,31,Asian,Gonorrhea,Yes (2 years ago),No,Pelvic adhesions (US),"Greenish discharge, burning sensation",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P446,25,Hispanic,No,No,No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P447,33,White,No,Yes (removed 2 years ago),No,Normal (US),"Yellowish discharge, itching",None,Regular (28 days),Yes,No,Elevated,Normal,Elevated,Positive
+P448,30,Black,Bacterial Vaginosis (BV),No,No,Normal (US),"Greyish discharge, fishy odor",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P449,28,Hispanic,No,No,Yes (1 year ago),Adnexal tenderness (US),"Yellowish-green discharge, itching",None,Regular (28 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P450,26,White,Chlamydia,No,Yes (3 years ago),Pelvic adhesions (US),"Brown discharge, heavy bleeding",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P451,29,Black,No,Yes (current),No,Normal (US),"White discharge, itching",None,Regular (28 days),Yes,No,Elevated,Elevated,Slightly Elevated,Positive
+P452,31,Asian,Gonorrhea,No,No,Adnexal tenderness (US),"Greenish discharge, burning sensation",None,Regular (28 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P453,27,Hispanic,No,No,Yes (2 years ago),Pelvic adhesions (US),"Brown discharge, heavy bleeding",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P454,33,White,No,Yes (current),No,Normal (US),"Yellowish discharge, itching",None,Regular (28 days),Yes,No,Elevated,Normal,Elevated,Positive
+P455,26,Black,Bacterial Vaginosis (BV),No,Yes (1 year ago),Adnexal tenderness (US),"Greyish discharge, fishy odor",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P456,30,Hispanic,No,No,Yes (3 years ago),Pelvic adhesions (US),"Greenish discharge, itching",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P457,28,White,No,Yes (removed 2 years ago),No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P458,32,Asian,No,No,Yes (4 years ago),Pelvic adhesions (US),"Brown discharge, heavy bleeding",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P459,25,Hispanic,No,No,Yes (current),Adnexal tenderness (US),"Yellowish-green discharge, itching",None,Regular (28 days),Yes,No,Elevated,Elevated,Slightly Elevated,Positive
+P460,34,Black,Bacterial Vaginosis (BV),Yes (2 years ago),No,Normal (US),"White discharge, itching",None,Regular (28 days),Yes,No,Elevated,Elevated,Slightly Elevated,Positive
+P461,29,White,No,No,No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P462,31,Black,Gonorrhea,Yes (2 years ago),Yes (2 years ago),Pelvic adhesions (US),"Greenish discharge, pain",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P463,27,Hispanic,No,No,Yes (current),Normal (US),"Yellowish discharge, itching",None,Regular (28 days),Yes,No,Elevated,Elevated,Slightly Elevated,Positive
+P464,33,Asian,Chlamydia,No,Yes (3 years ago),Adnexal tenderness (US),"Yellow discharge, burning sensation",None,Regular (28 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P465,26,White,No,Yes (current),No,Normal (US),"White discharge, itching",None,Regular (28 days),Yes,No,Elevated,Elevated,Slightly Elevated,Positive
+P466,30,Black,No,No,Yes (1 year ago),Pelvic adhesions (US),"Greenish discharge, itching",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P467,28,Hispanic,No,No,No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P468,32,Asian,Bacterial Vaginosis (BV),Yes (4 years ago),Yes (4 years ago),Adnexal tenderness (US),"Grey discharge, fishy odor",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P469,25,White,No,No,Yes (current),Pelvic adhesions (US),"Yellowish-green discharge, itching",None,Regular (28 days),Yes,No,Elevated,Elevated,Slightly Elevated,Positive
+P470,34,Black,No,No,Yes (2 years ago),Normal (US),"White discharge, itching",None,Regular (28 days),Yes,No,Elevated,Elevated,Slightly Elevated,Positive
+P471,27,Hispanic,No,Yes (removed 2 years ago),Yes (current),Adnexal tenderness (US),"Yellow discharge, pain",None,Regular (28 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P472,31,White,Chlamydia,No,Yes (current),Pelvic adhesions (US),"Yellowish-green discharge, itching",None,Regular (28 days),Yes,No,Elevated,Elevated,Slightly Elevated,Positive
+P473,29,Black,No,No,No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P474,33,Asian,Gonorrhea,No,Yes (3 years ago),Adnexal tenderness (US),"Greenish discharge, burning sensation",None,Regular (28 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P475,26,Hispanic,No,Yes (current),Yes (current),Pelvic adhesions (US),"Grey discharge, fishy odor",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P476,30,White,Bacterial Vaginosis (BV),Yes (4 years ago),Yes (4 years ago),Adnexal tenderness (US),"Greyish discharge, itching",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P477,28,Black,No,No,No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P478,32,Hispanic,No,No,Yes (1 year ago),Pelvic adhesions (US),"Yellow discharge, itching",None,Regular (28 days),Yes,No,Elevated,Elevated,Slightly Elevated,Positive
+P479,25,White,Chlamydia,Yes (2 years ago),Yes (2 years ago),Adnexal tenderness (US),"Yellow discharge, pain",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P480,34,Black,No,No,Yes (2 years ago),Normal (US),"White discharge, itching",None,Regular (28 days),Yes,No,Elevated,Elevated,Slightly Elevated,Positive
+P481,29,Hispanic,No,Yes (removed 3 years ago),Yes (current),Pelvic adhesions (US),"Brown discharge, odor",None,Irregular (30-35 days),Yes,No,Elevated,Elevated,Slightly Elevated,Positive
+P482,33,White,Gonorrhea,No,Yes (current),Adnexal tenderness (US),"Greenish-yellow discharge, burning",None,Regular (28 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P483,27,Black,No,No,No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P484,31,Asian,Bacterial Vaginosis (BV),Yes (1 year ago),Yes (current),Adnexal tenderness (US),"Greyish discharge, itching",None,Regular (28 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P485,26,Hispanic,No,No,Yes (current),Pelvic adhesions (US),"Yellow discharge, pain",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P486,30,White,Chlamydia,Yes (3 years ago),Yes (3 years ago),Adnexal tenderness (US),"Yellow discharge, itching",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P487,28,Black,No,No,No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P488,32,Hispanic,No,No,Yes (2 years ago),Pelvic adhesions (US),"Yellow discharge, odor",None,Irregular (30-35 days),Yes,No,Elevated,Elevated,Slightly Elevated,Positive
+P489,25,White,Chlamydia,Yes (1 year ago),Yes (1 year ago),Adnexal tenderness (US),"Yellow discharge, pain",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P490,34,Black,No,No,Yes (1 year ago),Normal (US),"White discharge, itching",None,Regular (28 days),Yes,No,Elevated,Elevated,Slightly Elevated,Positive
+P491,29,Hispanic,No,Yes (removed 3 years ago),Yes (current),Pelvic adhesions (US),"Brown discharge, odor",None,Irregular (30-35 days),Yes,No,Elevated,Elevated,Slightly Elevated,Positive
+P492,33,White,Gonorrhea,No,Yes (current),Adnexal tenderness (US),"Greenish-yellow discharge, burning",None,Regular (28 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P493,27,Black,No,No,No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P494,31,Asian,Bacterial Vaginosis (BV),Yes (1 year ago),Yes (current),Adnexal tenderness (US),"Greyish discharge, itching",None,Regular (28 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P495,26,Hispanic,No,No,Yes (current),Pelvic adhesions (US),"Yellow discharge, pain",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P496,30,White,Chlamydia,Yes (3 years ago),Yes (3 years ago),Adnexal tenderness (US),"Yellow discharge, itching",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P497,28,Black,No,No,No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P498,32,Hispanic,No,No,Yes (2 years ago),Pelvic adhesions (US),"Yellow discharge, odor",None,Irregular (30-35 days),Yes,No,Elevated,Elevated,Slightly Elevated,Positive
+P499,25,White,Chlamydia,Yes (1 year ago),Yes (1 year ago),Adnexal tenderness (US),"Yellow discharge, pain",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P500,34,Black,No,No,Yes (1 year ago),Normal (US),"White discharge, itching",None,Regular (28 days),Yes,No,Elevated,Elevated,Slightly Elevated,Positive
+P501,29,Hispanic,No,Yes (removed 3 years ago),Yes (current),Pelvic adhesions (US),"Brown discharge, odor",None,Irregular (30-35 days),Yes,No,Elevated,Elevated,Slightly Elevated,Positive
+P502,33,White,Gonorrhea,No,Yes (current),Adnexal tenderness (US),"Greenish-yellow discharge, burning",None,Regular (28 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P503,27,Black,No,No,No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P504,31,Asian,Bacterial Vaginosis (BV),Yes (1 year ago),Yes (current),Adnexal tenderness (US),"Greyish discharge, itching",None,Regular (28 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P505,26,Hispanic,No,No,Yes (current),Pelvic adhesions (US),"Yellow discharge, pain",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P506,30,White,Chlamydia,Yes (3 years ago),Yes (3 years ago),Adnexal tenderness (US),"Yellow discharge, itching",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P507,28,Black,No,No,No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P508,32,Hispanic,No,No,Yes (2 years ago),Pelvic adhesions (US),"Yellow discharge, odor",None,Irregular (30-35 days),Yes,No,Elevated,Elevated,Slightly Elevated,Positive
+P509,25,White,Chlamydia,Yes (1 year ago),Yes (1 year ago),Adnexal tenderness (US),"Yellow discharge, pain",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P510,34,Black,No,No,Yes (1 year ago),Normal (US),"White discharge, itching",None,Regular (28 days),Yes,No,Elevated,Elevated,Slightly Elevated,Positive
+P511,29,Hispanic,No,Yes (removed 3 years ago),Yes (current),Pelvic adhesions (US),"Brown discharge, odor",None,Irregular (30-35 days),Yes,No,Elevated,Elevated,Slightly Elevated,Positive
+P512,33,White,Gonorrhea,No,Yes (current),Adnexal tenderness (US),"Greenish-yellow discharge, burning",None,Regular (28 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P513,27,Black,No,No,No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P514,31,Asian,Bacterial Vaginosis (BV),Yes (1 year ago),Yes (current),Adnexal tenderness (US),"Greyish discharge, itching",None,Regular (28 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P515,26,Hispanic,No,No,Yes (current),Pelvic adhesions (US),"Yellow discharge, pain",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P516,30,White,Chlamydia,Yes (3 years ago),Yes (3 years ago),Adnexal tenderness (US),"Yellow discharge, itching",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P517,28,Black,No,No,No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P518,32,Hispanic,No,No,Yes (2 years ago),Pelvic adhesions (US),"Yellow discharge, odor",None,Irregular (30-35 days),Yes,No,Elevated,Elevated,Slightly Elevated,Positive
+P519,25,White,Chlamydia,Yes (1 year ago),Yes (1 year ago),Adnexal tenderness (US),"Yellow discharge, pain",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P520,34,Black,No,No,Yes (1 year ago),Normal (US),"White discharge, itching",None,Regular (28 days),Yes,No,Elevated,Elevated,Slightly Elevated,Positive
+P521,29,Hispanic,No,No,Yes (current),Pelvic adhesions (US),"Yellowish discharge, pain",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P522,33,White,Gonorrhea,No,Yes (current),Adnexal tenderness (US),"Greenish discharge, odor",None,Regular (28 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P523,27,Black,No,No,No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P524,31,Asian,Bacterial Vaginosis (BV),Yes (1 year ago),Yes (current),Adnexal tenderness (US),"Greyish discharge, itching",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P525,26,Hispanic,No,No,Yes (current),Pelvic adhesions (US),"White discharge, pain",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P526,30,White,Chlamydia,Yes (3 years ago),Yes (3 years ago),Adnexal tenderness (US),"Yellowish discharge, itching",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P527,28,Black,No,No,No,Normal (US),None,None,Regular (28 days),No,No,Normal,Normal,Normal,Negative
+P528,32,Hispanic,No,No,Yes (2 years ago),Pelvic adhesions (US),"Yellowish discharge, odor",None,Irregular (30-35 days),Yes,No,Elevated,Elevated,Slightly Elevated,Positive
+P529,25,White,Chlamydia,Yes (1 year ago),Yes (1 year ago),Adnexal tenderness (US),"Yellow discharge, pain",None,Irregular (30-35 days),Yes,Yes,Elevated,Elevated,Slightly Elevated,Positive
+P530,34,Black,No,No,Yes (1 year ago),Normal (US),"Greyish discharge, itching",None,Regular (28 days),Yes,No,Elevated,Elevated,Slightly Elevated,Positive

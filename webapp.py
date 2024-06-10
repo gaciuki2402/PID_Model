@@ -120,7 +120,7 @@ def render_contact_page():
 
         We value your feedback and inquiries. Please use the information below to get in touch with our team:
 
-        **Email:** gaciukigrace@gmail.comcom
+        **Email:** gaciukigrace@gmail.com
         
         **Phone:** +254794376828
         

@@ -1,6 +1,7 @@
 import joblib
 import streamlit as st
 import pandas as pd
+import sqlite3
 import base64
 import os
 
@@ -10,6 +11,16 @@ if os.path.exists(model_path):
     loaded_model = joblib.load(model_path)
 else:
     st.error(f"Model file not found at: {model_path}")
+
+# Connect to SQLite database (or create it if it doesn't exist)
+conn = sqlite3.connect('pid_predictions.db')
+c = conn.cursor()
+
+# Create table if it doesn't exist
+c.execute('''CREATE TABLE IF NOT EXISTS predictions
+             (age INTEGER, stds_uti_history TEXT, iud_use TEXT, past_pelvic_pain TEXT, imaging_results TEXT, 
+             abnormal_discharge TEXT, irregular_periods TEXT, dyspareunia TEXT, dysuria TEXT, wbc_count TEXT, 
+             esr TEXT, crp_level TEXT, prediction INTEGER)''')
 
 # Define the prediction function
 def predict_pid(age, stds_uti_history, iud_use, past_pelvic_pain, imaging_results, abnormal_discharge, irregular_periods, dyspareunia, dysuria, wbc_count, esr, crp_level):
@@ -49,13 +60,77 @@ def render_prediction_page():
     esr = st.selectbox("ESR", ["Normal", "Elevated", "Low"])
     crp_level = st.selectbox("CRP Level", ["Normal", "Elevated", "Low"])
 
-    if st.button("Diagnose"):
+    if st.button("Get Prediction"):
         new_prediction = predict_pid(age, stds_uti_history, iud_use, past_pelvic_pain, imaging_results, abnormal_discharge, irregular_periods, dyspareunia, dysuria, wbc_count, esr, crp_level)
+
+        # Insert the input data and prediction result into the database
+        c.execute("INSERT INTO predictions (age, stds_uti_history, iud_use, past_pelvic_pain, imaging_results, abnormal_discharge, irregular_periods, dyspareunia, dysuria, wbc_count, esr, crp_level, prediction) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+                  (age, stds_uti_history, iud_use, past_pelvic_pain, imaging_results, abnormal_discharge, irregular_periods, dyspareunia, dysuria, wbc_count, esr, crp_level, new_prediction))
+        conn.commit()
 
         if new_prediction == 0:
             st.success("PID Negative")
         else:
             st.error("PID Positive")
+
+# Function to render the database page
+def render_database_page():
+    st.title("Database Page")
+    
+    # Retrieve data from the database
+    c.execute("SELECT * FROM predictions")
+    data = c.fetchall()
+    
+    if data:
+        df = pd.DataFrame(data, columns=['Age', 'STDs/UTI History', 'IUD Use', 'Past Pelvic Pain', 'Imaging Results', 
+                                         'Abnormal Discharge', 'Irregular Periods', 'Dyspareunia', 'Dysuria', 
+                                         'WBC Count', 'ESR', 'CRP Level', 'Prediction'])
+        st.dataframe(df)
+    else:
+        st.write("No data available.")
+
+# Function to render the about page
+def render_about_page():
+    st.title("")
+    st.markdown("""
+        ## About This Application
+
+        This web application is designed to predict the likelihood of Pelvic Inflammatory Disease (PID) based on various medical factors. It is developed to assist healthcare professionals in diagnosing PID and to provide valuable insights for patients.
+
+        ### Purpose
+        The main purpose of this application is to leverage machine learning techniques to analyze medical data and provide predictions that can help in the early detection and management of PID. By providing an easy-to-use interface, we aim to facilitate the diagnosis process and improve patient outcomes.
+
+        ### The Team
+        Our team comprises data scientists, healthcare professionals, and software developers who are passionate about applying technology to solve healthcare challenges. With diverse expertise in their respective fields, the team collaborates to ensure that the application is accurate, reliable, and user-friendly.
+
+        ### Future Enhancements
+        We are committed to continuously improving the application. Future enhancements may include:
+        - Integration with electronic health records (EHR) systems for seamless data input.
+        - Advanced analytics and visualization tools for better understanding of data trends.
+        - Mobile application development for on-the-go access.
+
+        For any inquiries or feedback, please visit the Contact page.
+    """, unsafe_allow_html=True)
+
+# Function to render the contact page
+def render_contact_page():
+    st.title("")
+    st.markdown("""
+        ## Contact Us
+
+        We value your feedback and inquiries. Please use the information below to get in touch with our team:
+
+        **Email:** support@pidpredictor.com
+        
+        **Phone:** +1 234 567 890
+        
+        **Address:**
+        PID Predictor Team
+        1234 Health Tech Blvd
+        City, State, ZIP Code
+
+        Our support team is available Monday to Friday, 9 AM to 5 PM (EST). We aim to respond to all inquiries within 24 hours.
+    """, unsafe_allow_html=True)
 
 # Define the main function to render the Streamlit app
 def main():
@@ -83,31 +158,28 @@ def main():
 
     # Create a sidebar for navigation
     st.sidebar.title("Navigation")
-    page = st.sidebar.radio("Go to", ["Home", "Prediction"])
+    page = st.sidebar.radio("Go to", ["Home", "Prediction", "Database", "About", "Contact"])
 
     # Render the selected page based on the sidebar selection
     if page == "Home":
-        st.title("")
+        st.title("Welcome to the PID Prediction System")
         st.markdown("""
-    ## <span style="color:#9370DB;"><b>Welcome to the PID Prediction System</b></span>
-    
-    This web application allows you to predict the likelihood of Pelvic Inflammatory Disease (PID) based on various medical factors. 
-    
-    ### <span style="color:#9370DB;"><b>What is PID?</b></span>
+        This web application allows you to predict the likelihood of Pelvic Inflammatory Disease (PID) based on various medical factors. 
+        
+        <span style="color:#9370DB;"><b>What is PID?</b></span>
+        PID is an infection of the female reproductive organs. It usually occurs when sexually transmitted bacteria spread from your vagina to your uterus, fallopian tubes, or ovaries.
 
-    Pelvic Inflammatory Disease (PID) is an infection of the female reproductive organs, including the uterus, fallopian tubes, and ovaries. It typically occurs when sexually transmitted bacteria, such as chlamydia or gonorrhea, spread from the vagina to these organs. 
-    
-    PID can cause various symptoms, including pelvic pain, abnormal vaginal discharge, painful urination, irregular menstrual bleeding, and fever. If left untreated, PID can lead to serious complications such as chronic pelvic pain, ectopic pregnancy, infertility, and an increased risk of pelvic adhesions.
-
-    Prompt diagnosis and treatment of PID are essential to prevent long-term complications. Treatment usually involves antibiotics to eradicate the infection and may require hospitalization in severe cases. Additionally, individuals diagnosed with PID should receive counseling and testing for sexually transmitted infections (STIs) to prevent future episodes.    
-    ### <span style="color:#9370DB;"><b>How to Use</b></span>
-    
-    Navigate to the Prediction page from the sidebar to input your medical information and get a prediction on whether you may have PID.
-    
-    """, unsafe_allow_html=True)
-
+        ## About This Application
+        This application leverages machine learning techniques to provide predictions that assist healthcare professionals in diagnosing PID. Navigate to the Prediction page from the sidebar to input your medical information and get a prediction on whether you may have PID.
+        """, unsafe_allow_html=True)
     elif page == "Prediction":
         render_prediction_page()
+    elif page == "Database":
+        render_database_page()
+    elif page == "About":
+        render_about_page()
+    elif page == "Contact":
+        render_contact_page()
 
 # Run the Streamlit app
 if __name__ == "__main__":

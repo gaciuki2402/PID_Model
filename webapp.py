@@ -120,13 +120,13 @@ def render_contact_page():
 
         We value your feedback and inquiries. Please use the information below to get in touch with our team:
 
-        **Email:** support@pidpredictor.com
+        **Email:** gaciukigrace@gmail.comcom
         
-        **Phone:** +1 234 567 890
+        **Phone:** +254794376828
         
         **Address:**
         PID Predictor Team
-        1234 Health Tech Blvd
+        Health Tech 
         City, State, ZIP Code
 
         Our support team is available Monday to Friday, 9 AM to 5 PM (EST). We aim to respond to all inquiries within 24 hours.
@@ -169,7 +169,8 @@ def main():
         <span style="color:#9370DB;"><b>What is PID?</b></span>
         PID is an infection of the female reproductive organs. It usually occurs when sexually transmitted bacteria spread from your vagina to your uterus, fallopian tubes, or ovaries.
 
-        ## About This Application
+        
+        <span style="color:#9370DB;">About This Application</span>
         This application leverages machine learning techniques to provide predictions that assist healthcare professionals in diagnosing PID. Navigate to the Prediction page from the sidebar to input your medical information and get a prediction on whether you may have PID.
         """, unsafe_allow_html=True)
     elif page == "Prediction":

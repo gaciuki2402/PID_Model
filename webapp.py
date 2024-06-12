@@ -166,11 +166,11 @@ def main():
         st.markdown("""
         This web application allows you to predict the likelihood of Pelvic Inflammatory Disease (PID) based on various medical factors. 
         
-        <span style="color:#9370DB;"><b>What is PID?</b></span>
+        ###What is PID?
         PID is an infection of the female reproductive organs. It usually occurs when sexually transmitted bacteria spread from your vagina to your uterus, fallopian tubes, or ovaries.
 
         
-        <span style="color:#9370DB;">About This Application</span>
+        ###About This Application
         This application leverages machine learning techniques to provide predictions that assist healthcare professionals in diagnosing PID. Navigate to the Prediction page from the sidebar to input your medical information and get a prediction on whether you may have PID.
         """, unsafe_allow_html=True)
     elif page == "Prediction":

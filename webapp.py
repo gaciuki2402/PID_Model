@@ -148,6 +148,7 @@ def main():
                 background-image: url("data:image/png;base64,{encoded_string}");
                 background-size: cover;
                 background-position: center;
+                color: grey
             }}
             </style>
             """,
